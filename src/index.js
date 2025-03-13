@@ -1,1 +1,7 @@
-console.log("Webpack is working!");
+import loadHome from "./home";
+
+function initWebsite() {
+    loadHome();
+}
+
+initWebsite();
