@@ -1,3 +1,9 @@
+import vanilla from "./images/vanilla.jpg";
+import chocolate from "./images/chocolate.jpg";
+import strawberry from "./images/strawberry.jpg";
+import cookiesAndCream from "./images/cookies and cream.jpg";
+import mintChocolateChips from "./images/mint chocolate chips.jpg";
+
 export default function loadMenu() {
     const content = document.getElementById("content");
     content.innerHTML = "";
