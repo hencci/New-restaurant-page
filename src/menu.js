@@ -19,4 +19,16 @@ export default function loadMenu() {
     const itemDiv1 = document.createElement("div");
     itemDiv1.classList.add("item");
     itemImage1 = document.createElement("img");
+    itemImage1.src = vanilla;
+    itemImage1.alt = "Vanilla icecream";
+    itemText1 = document.createElement("p");
+    itemText1.textContent = "vanilla - $5";
+
+    itemDiv1.appendChild(itemImage1);
+    itemDiv1.appendChild(itemText1);
+    menuListDiv.appendChild(itemDiv1);
+
+    menuDiv.appendChild(title);
+    menuDiv.appendChild(menuListDiv);
+    content.appendChild(menuDiv);
 }
