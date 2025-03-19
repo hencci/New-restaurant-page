@@ -5,6 +5,7 @@ export default function loadHome() {
     content.innerHTML = ""; // Clear previous content
 
     const homeDiv = document.createElement("div");
+    homeDiv.classList.add("home");
 
     const headline = document.createElement("h1");
     headline.textContent = "Welcome to Our Restaurant";
